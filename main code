@@ -1,0 +1,27 @@
+import platform
+import os
+
+def get_system_specs():
+    """Returns basic system hardware and OS specifications."""
+    try:
+        specs = {
+            "os": platform.system(),
+            "os_release": platform.release(),
+            "architecture": platform.machine(),
+            "processor": platform.processor(),
+            "cpu_cores": os.cpu_count(),
+            "python_version": platform.python_version()
+        }
+        print("[+] System specs collected successfully.")
+        return specs
+    except Exception as e:
+        print(f"[-] Error collecting system specs: {e}")
+        return None
+if __name__ == "__main__":
+    specs = get_system_specs()
+    for key, value in specs.items():
+        print(f"{key}: {value}")
+#ALL THIS SCRIPT DOES IS CHECKING BASE CONFIG OF OS 
+#HOW TO RUN
+#INSTALL PYTHON & PLATFORM & OS LIBLARIES
+#OR JUST TEXT ME, WILL BE DONE FOR 25-100$. MY TELEGRAM: @Myhamed91
