@@ -1,2 +1,6 @@
 # checking-base-config-of-os
-Checking base config of os, like: CPU GPU memory, if you want to customize or upgrade this version, or is you want to integrate it in your project or just dont want to set it by yourself you can always text me, will be done for 25-100$. My telegram: @Myhamed91
+Checking base config of os, like: CPU GPU memory.
+
+👉 Need custom features or business solutions? Write to Telegram: [@Myhamed91](https://t.me/Myhamed91)
+
+Telegram (https://t.me/Myhamed91)
